@@ -95,6 +95,15 @@ import small9 from '../assets/img-small/26.png'
         }
         this.url = this.bigList[this.num]
         this.url1 = this.smallList[this.num]
+        // this.$axios.HttpPost(this.PublicAddress.accessDelete.url,
+        // {
+        //   idcard: "demo-USERID",
+        //   page: 0,
+        //   size: 0
+        // })
+        // .then(data=>{
+        //   console.log(data, 'data')
+        // });
       }
     }
   }
@@ -118,6 +127,12 @@ import small9 from '../assets/img-small/26.png'
         .view-img {
           width: 448px;
           height: 448px;
+          transition: 0.3s;
+          &:hover {
+            transform: scale(0.96);
+            transition: 0.3s;
+            
+          }
           img {
             width: 100%;
             height: 100%;
