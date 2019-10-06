@@ -1,4 +1,4 @@
-const baseUrl = 'http://test.idata3d.com:9090';       //测试
+const baseUrl = '';       //测试
 
 function  url(str) {
   return baseUrl + str ;
